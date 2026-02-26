@@ -17,7 +17,10 @@ pod5 convert from_fast5 -r/directory -o/output/directory
 ```
 #### step2 dorado basecaller
 ```
-dorado basecaller hac /directory/*.pod5 >name.bam    ###single file
+dorado basecaller hac /directory/*.pod5 >name.bam
+```
+#### single file
+```
 dorado basecaller hac/directory/data --recursive >name.bam
 ```
 #### Sequence alignment using Minimap2
